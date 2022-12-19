@@ -1,0 +1,72 @@
+
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    background-color: rgb(212, 228, 241);
+    text-align: center;
+    height: 40%;
+    width: 28%;
+    box-sizing: border-box;
+    position: absolute;
+    top: 22%;
+    left: 50%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+  }
+  .button {
+    background-color: rgb(96, 232, 232);
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 15px;
+  }
+  .text{
+      padding: 3px;
+      border-radius: 5px;
+      font-family:Georgia, 'Times New Roman', Times, serif;    
+  }
+  .title{
+      color: rgb(91, 87, 91);
+  }
+  .button:hover{
+      background-color: bisque;
+  }
+  .card{
+    background-color: rgb(124, 128, 128);
+      height:30%;
+      width:20%;
+      position: absolute;
+      top:40%;
+      left: 10px;
+      border-radius: 10px;
+      /* display: grid; */
+      grid-template-columns: repeat(3, 2fr);
+      gap: 3rem;
+  }
+  .destinations{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 0 3rem;
+  }
+  .destination {
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    /* background-color: #51406714; */
+    border-radius: 1rem;
+    transition: 0.3s ease-in-out;
+    height:30%;
+    width:20%;
+    position: absolute;
+    top:40%;
+    left: 10px;
+    display: flex;
+    border-radius: 10px;
+    /* flex-direction: row; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 3rem;
+    padding: 0 3rem;
+  }
